@@ -1,0 +1,55 @@
+body{
+    background-color: #c8deec;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #71A3C7;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: #8B8164;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+img{
+    height: 200px;
+    border: 1px solid #000000;
+}
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/*
+Cookie Recipe CSS
+=================
+
+
+- The font family for the h2 is Century Gothic
+- The font family for all other elements is Helvetica Neue
+- The font weight for the link is bold 
+- Bonus: The border on the page and around the image is black
+*/

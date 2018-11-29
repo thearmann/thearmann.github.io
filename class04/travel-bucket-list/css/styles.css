@@ -1,0 +1,97 @@
+body {
+    background: rgb(243, 243, 243);
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    background: rgb(9, 202, 159);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 10px 50px 10px 50px;
+    width: 480px;
+    margin: 0 auto;
+}
+
+
+.maui {
+background: rgb(196, 222, 252);
+width: 480px;
+padding-top: 10px;
+padding-bottom: 50px;
+padding-left: 30px;
+padding-right: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+
+
+}
+
+.Reykjavik {
+    background: rgb(9, 202, 159);
+    width: 480px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;  
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Aspen {
+    background: rgb(196, 222, 252);
+    width: 480px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px; 
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+img{
+    width: 400px;
+    height: auto;
+
+}
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.color1{
+    background: rgb(120, 233, 252);
+
+} 
+.color2{
+    background: rgb(9, 202, 159);
+}
+
+h2{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+li{
+    text-decoration: none;
+}
+ h3{
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+
+
+
+
+/* font - helvetica;
+page background: rgb(243, 243, 243);
+My 2019... background rgb(9, 202, 159);
+Maui background rgb(196, 222, 252);
+Reykjavik rgb(194, 242, 227);
+Maui lorem background: rgb(120, 233, 252);
+Reykjavik lorem background: rgb(9, 202, 159); */
