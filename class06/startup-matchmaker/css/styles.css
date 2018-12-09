@@ -1,0 +1,155 @@
+body{
+    width: 1200px;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    border-bottom: solid yellow;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+h1{
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    color: yellow;
+}
+
+.tagline{
+    font-family: "Merriweather";
+    background: #C6C6C6;
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+    font-style: oblique;
+}
+
+.image-wrap{
+    background-image: url("../img/coworking.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+}
+
+.taste{
+    text-decoration: line-through;
+    color: grey;
+}
+
+.are{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.float{
+    background: rgba(225, 225, 225, .85);
+    margin: 80px;
+    padding: 30px;
+    padding-bottom: 10px;
+    width: 350px;
+    box-shadow: 0 0 10px #000;
+}
+
+h4{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    background: yellow;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px darkkhaki;
+    padding: 10px;
+}
+
+.button{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    background: #C6C6C6;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px darkgrey;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-evenly;
+    background: #ECECEC;
+}
+
+.foottype
+{
+    color: white;
+    background: #000;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+h5{
+    font-size: 25px;
+    font-family: "Merriweather";
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.cta1{
+    padding-right: 50px;
+    padding-left: 50px;
+    border-right: 1px solid lightgrey; 
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cta2{
+    padding-right: 50px;
+    padding-left: 50px;
+    border-right: 1px solid lightgrey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cta3{
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+
+h3{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+
+/* FONT FAMILY HELPERS :)
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif; */
