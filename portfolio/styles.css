@@ -1,22 +1,55 @@
 body{
     background-image: linear-gradient(to right, rgba(255,213,190,100), rgba(244,93,93,100));
-max-width: 1024px;
+
     max-height: 768px;
 }
 
 h1{
     font-family: 'Roboto mono', monospace;
-    font-weight: 300;
-}
-
-li{
-    font-family: 'roboto mono', monospace;
     font-weight: 400;
+    font-size: 20px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
 }
 
 ul{
     list-style: none;
+    float: right;
+    position: relative;
+    top: 65px;
+    right: 70px;
 }
+
+
+
+li{
+    font-family: 'roboto mono', monospace;
+    font-weight: 400;
+    font-size: 16px;
+    display: inline;
+    padding-right: 15px;
+
+}
+
+
+
+
+
+#thumb{
+    position: relative;
+    left: 50px;
+    top: 350px;
+}
+
+img{
+    padding-left: 15px;
+}
+
+
+
+
+
 
 a{
     text-decoration: none;
@@ -29,6 +62,7 @@ footer{
 h2{
     font-family: 'Roboto mono', monospace;
     font-weight: 300;
+    font-size: 16px;
     position: absolute;
     bottom: 70px;
     left: 70px;
