@@ -1,3 +1,5 @@
+
+
 $('#clickme').click(function handleClick (){
 
     let newItem = $('#item').val();
@@ -8,9 +10,9 @@ $('#clickme').click(function handleClick (){
 
 })
 
-function appendItem (newItem){
+function appendItem (x){
     
-    $('#list').append('<li>' + newItem + '</li>');
+    $('#list').append('<li>' + x + '</li>');
 
 }
 

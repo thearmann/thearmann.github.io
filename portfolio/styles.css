@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(to right, rgba(255,213,190,100), rgba(244,93,93,100));
+max-width: 1024px;
+    max-height: 768px;
+}
+
+h1{
+    font-family: 'Roboto mono', monospace;
+    font-weight: 300;
+}
+
+li{
+    font-family: 'roboto mono', monospace;
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+}
+
+h2{
+    font-family: 'Roboto mono', monospace;
+    font-weight: 300;
+    position: absolute;
+    bottom: 70px;
+    left: 70px;
+}
