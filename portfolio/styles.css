@@ -39,17 +39,15 @@ li{
 #thumb{
     position: relative;
     left: 50px;
-    top: 350px;
+    top: 250px;
+    
 }
 
 img{
-    padding-left: 15px;
+    width: 340px;
+    padding-left: 10px;
+
 }
-
-
-
-
-
 
 a{
     text-decoration: none;
