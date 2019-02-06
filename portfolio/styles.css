@@ -1,52 +1,185 @@
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 80px; 
+    right: 75px; 
+    font-family: 'Bungee Shade', cursive;
+    color: black; 
+    cursor: pointer; 
+    padding: 15px; 
+    font-size: 20px; 
+    border: none;
+    z-index: 1;
+  }
+
 body{
-    background-image: linear-gradient(to right, rgba(255,213,190,100), rgba(244,93,93,100));
+    background-image: linear-gradient(to right, #FFF9E3 , #F8ECFF);
+  }
 
-    max-height: 768px;
-}
 
-h1{
-    font-family: 'Roboto mono', monospace;
-    font-weight: 400;
-    font-size: 20px;
+
+.home{
+    float: left;
     position: absolute;
-    top: 70px;
-    left: 70px;
+    top: 6%;
+    left: 5%;
+    padding-top: 2px;
 }
 
-ul{
+.name {
+    font-family: 'Roboto mono', monospace;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;    
+}
+
+head{
+    width: 90%;
+}
+
+.imglanding {
+    position: absolute;
+    top: 26%;
+    left: 5%;
+}
+
+#thumb{
+    width: 90%; 
+    overflow: scroll;
+    white-space: nowrap;    
+}
+
+
+.classpassproj{
+    position: absolute;
+    top: 42%;  
+    left: 2%;  
+}
+
+#ccproject{
+    width: 45%;
+}
+
+#ccprojectbig{
+    width: 70%;
+}
+
+#mproject{
+    width: 1300px; 
+}
+
+.menu{
     list-style: none;
     float: right;
-    position: relative;
-    top: 65px;
-    right: 70px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
 }
 
+.on{
+    text-decoration: line-through;
+}
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: non;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:focus{
+    text-decoration: none;
+}
+
+a:active { 
+    text-decoration: line-through; 
+}
 
 li{
     font-family: 'roboto mono', monospace;
     font-weight: 400;
+    color: black;
     font-size: 16px;
     display: inline;
     padding-right: 15px;
+}
 
+p{
+    font-family: 'roboto mono', monospace;
+    font-weight: 300;
+    font-size: 14;
+    color: #484848;
+    line-height: 1.8;   
+}
+
+.description{
+    position: absolute;
+    top: 15%;
+    width: 45%;
+    left: 5%;   
+    display: block;
+}
+
+.mproj{
+    position: absolute;
+    top: 42%;
+    display: block;
+    left: 2%;
+}
+
+#about{
+    position: absolute;
+    top: 35%;
+    width: 35%;
+    left: 5%;
+}
+
+#photography{
+    position: absolute;
+    top: 65%;
+    width: 600px;
+    left: 5%;
 }
 
 
-
-
-
-#thumb{
-    position: relative;
-    left: 50px;
-    top: 250px;
-    
+::-webkit-scrollbar { 
+    display: none; 
 }
 
-img{
-    width: 340px;
+#paypal{
+    width: 400px; 
+}
+
+#classpass{
+    width: 400px;
     padding-left: 10px;
+}
 
+#google{
+    width: 400px;
+    padding-left: 10px;
+}
+
+#mosaic{
+    width: 400px;
+    padding-left: 10px;
+}
+
+.paypalproj{
+    position: absolute;
+    top: 42%;
+    left: 3%; 
+    width: 80%;  
+}
+
+#project{
+    display: block;    
 }
 
 a{
@@ -54,14 +187,111 @@ a{
 }
 
 footer{
-    display: flex;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
 }
 
 h2{
     font-family: 'Roboto mono', monospace;
-    font-weight: 300;
-    font-size: 16px;
-    position: absolute;
-    bottom: 70px;
-    left: 70px;
+    font-weight: 400;
+    color: black;
+    font-size: 16px; 
 }
+
+.next {
+    font-family: 'roboto mono', monospace;
+    font-weight: 400;
+    font-size: 16px;  
+}
+
+
+@media (max-width: 550px){
+    #paypal, #google, #classpass, #mosaic {
+        display: block;
+        height: 400px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;  
+    }
+
+    footer{
+        display: none;
+    }
+
+    #imglanding{
+        display: block;
+        width: 100%;
+        }
+
+    #project {
+        display: block;
+        width: 100%;
+        }
+    .classpassproj, .mproj {
+        display: block;
+        width: 95%;
+        }
+    #ccproject, #ccprojectbig, #mproject {
+        display: block;
+        width: 100%;
+        }
+    .thumb{
+        display: block;
+        width: 100%;
+        }
+    #name{
+        display: none;   
+        }
+    section, .paypalproj{
+        display: block;
+        width: 100%;
+        }
+    .description{
+        position: absolute;
+        display: block;
+        width: 90%;
+        max-height: 50px;
+        }
+    p{
+        position: absolute;
+        display: block;
+        width: 100%;
+        font-size: 12px;
+            
+        }
+}
+
+
+
+
+
+
+.gradDynamic:after, .gradDynamic:before{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    content:"";
+    
+  }
+  
+
+  .gradDynamic:after{
+    background:radial-gradient(circle, #FFCDCE,transparent);
+    background-size: cover;
+    animation:colorSpin 4s linear infinite;
+  }
+  
+  .gradDynamic:before{
+    background-color: #E8FFCD; 
+  }
+  
+  @keyframes colorSpin{
+    25%{background-position:0 100%}
+    50%{background-position:100% 100%}
+    75%{background-position:100% 0}
+    100%{filter:hue-rotate(360deg)}
+}
+

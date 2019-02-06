@@ -8,35 +8,50 @@
 </head>
 
 <body>
+
+
+    <div class="gradDynamic"></div>
+
     <head>
-    <h1>thea mann</h1>
-</head>
+    <div class="home">
+        <a href="home.html" class="name">thea mann</a>
+    </div>
 
-
-
-<nav class="nav">
-    <ul>
-        <li><a href="home.html" class="nav">work</a></li>
+    <ul class="menu">
+        <li><a href="home.html" class="on">work</a></li>
         <li><a href="about.html" class="nav">about</a></li>
-        <li><a href="contact.html" class="nav">contact</a></li>
     </ul>
+    </head>
 
-</nav>
 
 
-<section class="imglanding">
-<div id="thumb">
-    <img src="paypal.jpg" alt="paypal">
-    <img src="faces.jpg" alt="faces and names">
-    <img src="classpass.jpg" alt="classpass">
-    <img src="mosaic.jpg" alt="mosaic">
-</div>
-</section>
+    <section class="imglanding">
+    <div id="thumb">
+        <a href="paypal.html">
+        <img id="paypal" src="paypal.png" alt="paypal" onmouseover="doMouseOverpp()" onMouseOut="doMouseOutpp()">
+        </a>
+        <a href="google.html">
+        <img id="google" src="google_2.png" alt="google" onmouseover="doMouseOverg()" onMouseOut="doMouseOutg()">
+        </a>
+        <a href="classpass.html">
+        <img id="classpass" src="classpass.png" alt="classpass" onmouseover="doMouseOvercp()" onMouseOut="doMouseOutcp()">
+        </a>
+        <a href="mosaic.html">
+        <img id="mosaic" src="mosaic.png" alt="mosaic" onmouseover="doMouseOverm()" onMouseOut="doMouseOutm()">
+        </a>
+    </div>
+    </section>
 
-<footer>
-    <h2>interaction designer</h2>
+    <footer>
+        <h2>interaction designer</h2>
     </footer>
 
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="js/app.js"></script>
 </body>
 
 </html>
