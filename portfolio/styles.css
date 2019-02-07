@@ -113,7 +113,7 @@ li{
 p{
     font-family: 'roboto mono', monospace;
     font-weight: 300;
-    font-size: 14;
+    font-size: 14px;
     color: #484848;
     line-height: 1.8;   
 }
@@ -121,7 +121,7 @@ p{
 .description{
     position: absolute;
     top: 15%;
-    width: 50%;
+    width: 35%;
     left: 5%;   
     display: block;
 }
