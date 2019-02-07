@@ -121,7 +121,7 @@ p{
 .description{
     position: absolute;
     top: 15%;
-    width: 45%;
+    width: 50%;
     left: 5%;   
     display: block;
 }
@@ -206,7 +206,9 @@ h2{
 }
 
 
-@media (max-width: 550px){
+
+
+@media (max-width: 650px){
     #paypal, #google, #classpass, #mosaic {
         display: block;
         height: 400px;
